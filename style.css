@@ -1,0 +1,76 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    /* background-color: aqua; */
+    padding: 34px;
+    /* margin: 23px; */
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+p{
+    text-align: center;
+    /* padding: 20px; */
+    /* margin: 25px; */
+    font-size: x-large;
+}
+
+.submitmsg{
+
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    color: rosybrown;
+}
+input{
+    /* margin: auto; */
+    width: 80%;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+textarea{
+    width: 80%;
+    padding: 25px;
+    margin: 10px;
+    /* padding: 3%; */
+    border-radius: 10px;
+    display: block;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+
+    background-color:aqua;
+    font-size: initial;
+    cursor: pointer;
+    margin: 10px;
+    padding: 8px;
+
+
+}
+
+.College{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    /* padding: 20px; */
+    opacity: 0.5;
+}
